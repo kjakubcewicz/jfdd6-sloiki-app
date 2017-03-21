@@ -2,7 +2,7 @@ import React from 'react'
 import {connect} from 'react-redux'
 import {Link} from 'react-router'
 import {LinkContainer} from 'react-router-bootstrap'
-
+import GoogleMap from 'google-map-react'
 
 import {Grid, PageHeader, Panel, Button, Row, Col, Image} from 'react-bootstrap'
 
@@ -16,6 +16,7 @@ export default connect(
     games: state.games,
     changeRange: state.range.changeRange,
     favoriteGameIds: state.favs.favoriteGameIds,
+    gameMap: state.maps.gameMap,
   }),
   dispatch => ({
     fetchGamesHelper: () => dispatch(fetchGames()),
@@ -26,6 +27,7 @@ export default connect(
   class GameProfileView extends React.Component {
     render() {
       const {
+        maps,
         users,
         games,
         params,
@@ -48,7 +50,10 @@ export default connect(
       const nextGame = (
         (currentGame.id <= games.data.length - 1) ? (currentGame.id + 1) : (1)
       )
-
+      const defaultProps = {
+        center: {lat: 54.403207, lng: 18.569882},
+        zoom: 15
+      };
       return (
         <Grid>
           <div>
@@ -125,6 +130,35 @@ export default connect(
                 <Row>
                   <Col xs={12} sm={12}>
                     <Panel header="Opis">{currentGame.description}</Panel>
+
+
+
+
+
+
+                    <Panel header="Mapa gier">
+                      <div className="maps-container">
+                        <GoogleMap
+                          bootstrapURLKeys={{
+                            key: 'AIzaSyCmKq7BbW9E8wkMALYHdjMHo6D839_cstk'
+                          }}
+                          center={[54.360765, 18.633659]}
+                          zoom={15}>
+                        </GoogleMap>
+                          <GamePlace>
+
+
+
+                          </GamePlace>
+
+                      </div>
+                    </Panel>
+
+
+
+
+
+
                   </Col>
                 </Row>
               </div>

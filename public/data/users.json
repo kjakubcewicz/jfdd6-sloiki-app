@@ -7,8 +7,8 @@
     "picture": "/img/Rafal.jpg",
     "gameList": [1, 3],
     "wishList": [5],
-    "lat": 54.40,
-    "lng": 18.56
+    "lat": 54.51,
+    "lng": 18.53
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
     "picture": "/img/Marta.jpg",
     "gameList": [2],
     "wishList": [3, 5],
-    "lat": 54.40,
+    "lat": 54.44,
     "lng": 18.56
   },
   {
@@ -40,8 +40,8 @@
     "picture": "/img/Karol.jpg",
     "gameList": [4, 1],
     "wishList": [2, 3],
-    "lat": 54.40,
-    "lng": 18.56
+    "lat": 54.39,
+    "lng": 18.60
   },
   {
     "id": 5,
@@ -51,7 +51,7 @@
     "picture": "/img/Bartosz.jpg",
     "gameList": [1, 5],
     "wishList": [2, 4],
-    "lat": 54.40,
-    "lng": 18.56
+    "lat": 54.35,
+    "lng": 18.64
   }
 ]

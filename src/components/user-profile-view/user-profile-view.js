@@ -4,17 +4,14 @@ import {Link} from 'react-router'
 import {connect} from 'react-redux'
 import {Grid, Row, Col, Panel, PageHeader, Image} from 'react-bootstrap'
 import {Tabs, Tab} from 'react-bootstrap-tabs'
-import GoogleMap from 'google-map-react'
 import style from './user-profile-view.css'
 
 import {fetchUsers} from '../../state/users'
-
 
 export default connect(
   state => ({
     users: state.users,
     games: state.games,
-    gameMap: state.maps.gameMap,
   }),
   dispatch => ({
     fetchUsersHelper: () => dispatch(fetchUsers())
@@ -27,7 +24,6 @@ export default connect(
         params,
         users,
         games,
-        maps,
       } = this.props
 
       const currentUser =
@@ -38,11 +34,6 @@ export default connect(
 
       if (currentUser === null) {
         return <p>Waiting for users data...</p>
-      };
-
-      const defaultProps = {
-        center: {lat: 54.403207, lng: 18.569882},
-        zoom: 15
       };
 
       return (
@@ -98,46 +89,9 @@ export default connect(
                   <Tab headerClass='pointer' label="Szukam">
                     <h3>Szukam</h3>
                     <ul>
-                      {
-                        currentUser.id ?
-                          <ul>
-                            {
-                              currentUser.wishList.map(
-                                game => games.data.find(g => g.id === game)
-                              ).map(
-                                game => (
-                                  <li key={game.id}>
-                                    <Link to={'game-profile/' + game.id}>
-                                      {game.name}
-                                    </Link>
-                                  </li>
-                                )
-                              )
-                            }
-                          </ul> : null
-                      }
-
                     </ul>
                   </Tab>
                 </Tabs>
-              </Panel>
-              <Panel>
-
-
-
-                <div className="maps-container">
-                  <GoogleMap
-                    bootstrapURLKeys={{
-                      key: 'AIzaSyCmKq7BbW9E8wkMALYHdjMHo6D839_cstk'
-                    }}
-                    center={[54.360765, 18.633659]}
-                    zoom={15}
-
-
-
->
-                  </GoogleMap>
-                </div>
               </Panel>
             </Col>
           </Row>
