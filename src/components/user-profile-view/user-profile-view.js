@@ -10,6 +10,7 @@ import {fetchUsers} from '../../state/users'
 
 export default connect(
   state => ({
+    maps: state.maps,
     users: state.users,
     games: state.games
   }),
@@ -22,7 +23,8 @@ export default connect(
       const {
         params,
         users,
-        games
+        games,
+        maps
       } = this.props
 
       const currentUser =
@@ -110,6 +112,9 @@ export default connect(
                     </ul>
                   </Tab>
                 </Tabs>
+              </Panel>
+              <Panel>
+                <Maps />
               </Panel>
             </Col>
           </Row>
