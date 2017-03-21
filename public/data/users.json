@@ -17,7 +17,9 @@
     "about": "Jestem Natalia, pochodzę z Gdańska. Na codzień interesuję się grami planszowymi w szczególności Scrabble, Osadnicy z Katanu. Lubię koty :) ",
     "picture": "/img/Natalia.jpg",
     "gameList": [3, 4, 5],
-    "wishList": [1, 2]
+    "wishList": [1, 2],
+    "lat": 54.40,
+    "lng": 18.56
   },
   {
     "id": 3,
@@ -26,7 +28,9 @@
     "about": "Jestem Marta, pochodzę z Gdańska. Na codzień interesuję się grami planszowymi w szczególności Jungle Speed, Osadnicy z Katanu. Uwielbiam psy.",
     "picture": "/img/Marta.jpg",
     "gameList": [2],
-    "wishList": [3, 5]
+    "wishList": [3, 5],
+    "lat": 54.40,
+    "lng": 18.56
   },
   {
     "id": 4,
@@ -35,7 +39,9 @@
     "about": "Jestem Karol, pochodzę z Gdyni. Na codzień interesuję się grami planszowymi w szczególności Jungle Speed, Dixit. Zawszę chętnię coś zjem na ciepło.",
     "picture": "/img/Karol.jpg",
     "gameList": [4, 1],
-    "wishList": [2, 3]
+    "wishList": [2, 3],
+    "lat": 54.40,
+    "lng": 18.56
   },
   {
     "id": 5,
@@ -44,6 +50,8 @@
     "about": "Jestem Bartosz, pochodzę z Gdańska. Na codzień interesuję się programowaniem, prowadzeniem zajęć z zakresu JavaScript. Wyzwania to moja pasja :). Nie szukam gier - programuję je sam.",
     "picture": "/img/Bartosz.jpg",
     "gameList": [1, 5],
-    "wishList": [2, 4]
+    "wishList": [2, 4],
+    "lat": 54.40,
+    "lng": 18.56
   }
 ]

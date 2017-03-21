@@ -1,12 +1,12 @@
 const MAPS = 'user-profile/MAPS'
 
-export const search = (value) => ({
+export const maps = (value) => ({
   type: MAPS,
   value
 })
 
 const initialState = {
-  maps: ''
+  gameMap: ''
 }
 
 
@@ -15,7 +15,7 @@ export default (state = initialState, action = {}) => {
     case MAPS:
       return {
         ...state,
-        maps: action.value
+        gameMap: action.gameMap
       }
     default:
       return state
