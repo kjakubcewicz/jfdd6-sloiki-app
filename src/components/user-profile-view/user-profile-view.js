@@ -10,9 +10,9 @@ import {fetchUsers} from '../../state/users'
 
 export default connect(
   state => ({
-    maps: state.maps,
     users: state.users,
-    games: state.games
+    games: state.games,
+    maps: state.maps,
   }),
   dispatch => ({
     fetchUsersHelper: () => dispatch(fetchUsers())
@@ -24,7 +24,6 @@ export default connect(
         params,
         users,
         games,
-        maps
       } = this.props
 
       const currentUser =
@@ -114,7 +113,6 @@ export default connect(
                 </Tabs>
               </Panel>
               <Panel>
-                <Maps />
               </Panel>
             </Col>
           </Row>

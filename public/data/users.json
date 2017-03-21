@@ -6,7 +6,9 @@
     "about": "Jestem Rafał, pochodzę z Gdańska. Na codzień interesuję się grami planszowymi w szczególności chińczyk, warcaby. Uwielbiam gotować. ",
     "picture": "/img/Rafal.jpg",
     "gameList": [1, 3],
-    "wishList": [5]
+    "wishList": [5],
+    "lat": 54.40,
+    "lng": 18.56
   },
   {
     "id": 2,
