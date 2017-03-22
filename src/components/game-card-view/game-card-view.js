@@ -140,16 +140,16 @@ export default connect(
                       <div className="maps-container">
                         <GoogleMap
                           bootstrapURLKeys={{
-                            key: 'AIzaSyCmKq7BbW9E8wkMALYHdjMHo6D839_cstk'
+                            key: 'AIzaSyAPyvag8LwkwRzzkIKyrwmPgkSGVS3cuf8'
                           }}
                           center={[54.360765, 18.633659]}
                           zoom={15}>
                         </GoogleMap>
-                          <GamePlace>
+{/*                          <GamePlace>
 
 
 
-                          </GamePlace>
+                          </GamePlace>*/}
 
                       </div>
                     </Panel>
