@@ -1,10 +1,9 @@
-
 import React, {PropTypes, Component} from 'react/addons';
 import shouldPureComponentUpdate from 'react-pure-render/function';
 
-import {placeStyle} from './place-style.js';
+import {greatPlaceStyle} from './my_great_place_styles.js';
 
-export default class place extends Component {
+export default class MyGreatPlace extends Component {
   static propTypes = {
     text: PropTypes.string
   };
@@ -15,7 +14,7 @@ export default class place extends Component {
 
   render() {
     return (
-      <div style={placeStyle}>
+      <div style={greatPlaceStyle}>
         {this.props.text}
       </div>
     );
