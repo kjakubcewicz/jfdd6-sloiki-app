@@ -2,7 +2,7 @@ import React, {PropTypes, Component} from 'react/addons';
 import shouldPureComponentUpdate from 'react-pure-render/function';
 
 import GoogleMap from 'google-map-react';
-import MyGreatPlace from './my_great_place.jsx';
+import Place from './place.js';
 
 export default class SimpleMapPage extends Component {
   static propTypes = {

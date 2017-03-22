@@ -136,7 +136,7 @@ export default connect(
 
 
 
-                    <Panel header="Mapa gier">
+{/*                    <Panel header="Mapa gier">
                       <div className="maps-container">
                         <GoogleMap
                           bootstrapURLKeys={{
@@ -145,14 +145,10 @@ export default connect(
                           center={[54.360765, 18.633659]}
                           zoom={15}>
                         </GoogleMap>
-{/*                          <GamePlace>
-
-
-
-                          </GamePlace>*/}
-
-                      </div>
-                    </Panel>
+/*                          <GamePlace>
+                          </GamePlace>*/
+                      /*</div>
+                    </Panel>*/}
 
 
 

@@ -32,6 +32,7 @@ ReactDOM.render(
           <Route path="/user-profile/:userId" component={UserProfileView}/>
           <Route path="/login" component={LoginView}/>
           <Route path="/registration" component={RegistrationView}/>
+{/*          <Route path="/map" component={MapView}/>*/}
         </Route>
       </Router>
     </Provider>
