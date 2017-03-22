@@ -6,8 +6,43 @@ import MyGreatPlace from './my_great_place.jsx';
 import {Link} from 'react-router'
 import {connect} from 'react-redux'
 
-export default class SimpleMapPage extends Component {
-  static propTypes = {
+export default connect(
+  state => ({
+    maps: state.maps,
+    users: state.users,
+    games: state.games,
+  }),
+  dispatch => ({
+    fetchUsersHelper: () => dispatch(fetchUsers())
+  })
+)(
+
+class SimpleMapPage extends React.Component {
+  render() {
+    const {
+      params,
+      users,
+      games,
+      zoom,
+      center,
+      greatPlaceCoords
+    } = this.props
+
+    return (
+      <GoogleMap
+        apiKey={AIzaSyAPyvag8LwkwRzzkIKyrwmPgkSGVS3cuf8}
+        center={center}
+        zoom={zoom}>
+        <MyGreatPlace lat={59.955413} lng={30.337844} text={'A'} /* Kreyser Avrora */ />
+        <MyGreatPlace {greatPlaceCoords} text={'B'} /* road circle */ />
+      </GoogleMap>
+    );
+  }
+}
+)
+
+
+/*  static propTypes = {
     center: PropTypes.array,
     zoom: PropTypes.number,
     greatPlaceCoords: PropTypes.any
@@ -23,17 +58,5 @@ export default class SimpleMapPage extends Component {
 
   constructor(props) {
     super(props);
-  }
+  }*/
 
-  render() {
-    return (
-      <GoogleMap
-        apiKey={AIzaSyAPyvag8LwkwRzzkIKyrwmPgkSGVS3cuf8}
-        center={this.props.center}
-        zoom={this.props.zoom}>
-        <MyGreatPlace lat={59.955413} lng={30.337844} text={'A'} /* Kreyser Avrora */ />
-        <MyGreatPlace {...this.props.greatPlaceCoords} text={'B'} /* road circle */ />
-      </GoogleMap>
-    );
-  }
-}
