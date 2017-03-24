@@ -1,47 +1,30 @@
-[
-  {
-    "id": 1,
-    "name": "Rafał",
-    "surname": "Nowak",
-    "about": "Jestem Rafał, pochodzę z Gdańska. Na codzień interesuję się grami planszowymi w szczególności chińczyk, warcaby. Uwielbiam gotować. ",
-    "picture": "/img/Rafal.jpg",
-    "gameList": [1, 3],
-    "wishList": [5]
-  },
-  {
-    "id": 2,
-    "name": "Natalia",
-    "surname": "React",
-    "about": "Jestem Natalia, pochodzę z Gdańska. Na codzień interesuję się grami planszowymi w szczególności Scrabble, Osadnicy z Katanu. Lubię koty :) ",
-    "picture": "/img/Natalia.jpg",
-    "gameList": [3, 4, 5],
-    "wishList": [1, 2]
-  },
-  {
-    "id": 3,
-    "name": "Marta",
-    "surname": "Zupa",
-    "about": "Jestem Marta, pochodzę z Gdańska. Na codzień interesuję się grami planszowymi w szczególności Jungle Speed, Osadnicy z Katanu. Uwielbiam psy.",
-    "picture": "/img/Marta.jpg",
-    "gameList": [2],
-    "wishList": [3, 5]
-  },
-  {
-    "id": 4,
-    "name": "Karol",
-    "surname": "Wielki",
-    "about": "Jestem Karol, pochodzę z Gdyni. Na codzień interesuję się grami planszowymi w szczególności Jungle Speed, Dixit. Zawszę chętnię coś zjem na ciepło.",
-    "picture": "/img/Karol.jpg",
-    "gameList": [4, 1],
-    "wishList": [2, 3]
-  },
-  {
-    "id": 5,
-    "name": "Bartosz",
-    "surname": "Wszystkowiedzacy",
-    "about": "Jestem Bartosz, pochodzę z Gdańska. Na codzień interesuję się programowaniem, prowadzeniem zajęć z zakresu JavaScript. Wyzwania to moja pasja :). Nie szukam gier - programuję je sam.",
-    "picture": "/img/Bartosz.jpg",
-    "gameList": [1, 5],
-    "wishList": [2, 4]
-  }
-]
+[{"id":1,"name":"Tina","surname":"Coleman","email":"tcoleman0@deviantart.com","about":"revolutionize web-enabled relationships","picture":"http://www.avatarpro.biz/avatar/1?s=500","gameList":[37,15,23,27,2,40,24,33,3,10],"wishList":[9,15,11,21,23,17,5,38,39,37]},
+  {"id":2,"name":"Julia","surname":"Rogers","email":"jrogers1@unesco.org","about":"benchmark B2C technologies","picture":"http://www.avatarpro.biz/avatar/2?s=500","gameList":[12,15,4,16,8,6,20,3],"wishList":[25,40,9,15,8,29,12,21]},
+  {"id":3,"name":"Patrick","surname":"Andrews","email":"pandrews2@seattletimes.com","about":"expedite real-time schemas","picture":"http://www.avatarpro.biz/avatar/3?s=500","gameList":[9,3,23,4,20,33,37,26,36],"wishList":[22,17,14,19,5,28,36,31,12,11]},
+  {"id":4,"name":"Kimberly","surname":"Mcdonald","email":"kmcdonald3@nytimes.com","about":"transform synergistic action-items","picture":"http://www.avatarpro.biz/avatar/4?s=500","gameList":[32,1,30,9,22,5,2,14,31],"wishList":[3,7,28,31,39,35,6,8,21]},
+  {"id":5,"name":"Jean","surname":"Jordan","email":"jjordan4@auda.org.au","about":"integrate global channels","picture":"http://www.avatarpro.biz/avatar/5?s=500","gameList":[14,33,38,31,17,1,22,16,13],"wishList":[34,5,31,2,9,3,30,37,11,35]},
+  {"id":6,"name":"Linda","surname":"Greene","email":"lgreene5@woothemes.com","about":"seize interactive content","picture":"http://www.avatarpro.biz/avatar/6?s=500","gameList":[27,6,8,25,23,34,5,35,12,7],"wishList":[38,3,24,21,32,4,14,26,28]},
+  {"id":7,"name":"Clarence","surname":"Alexander","email":"calexander6@dropbox.com","about":"redefine collaborative networks","picture":"http://www.avatarpro.biz/avatar/7?s=500","gameList":[5,1,40,17,32,8,10,20,3,38],"wishList":[8,21,23,34,10,2,18,11,36]},
+  {"id":8,"name":"Joan","surname":"Patterson","email":"jpatterson7@jiathis.com","about":"innovate 24/7 supply-chains","picture":"http://www.avatarpro.biz/avatar/8?s=500","gameList":[29,38,24,23,13,22,28,36,34,20],"wishList":[26,38,11,29,2,32,35,34]},
+  {"id":9,"name":"Carl","surname":"Banks","email":"cbanks8@tiny.cc","about":"engage wireless e-services","picture":"http://www.avatarpro.biz/avatar/9?s=500","gameList":[13,6,21,1,26,16,19,27,14],"wishList":[15,32,12,37,25,14,36,29,8]},
+  {"id":10,"name":"Chris","surname":"Shaw","email":"cshaw9@nytimes.com","about":"generate mission-critical convergence","picture":"http://www.avatarpro.biz/avatar/10?s=500","gameList":[22,19,8,3,36,37,27,4,28],"wishList":[1,19,16,17,20,5,33,26]},
+  {"id":11,"name":"Sandra","surname":"Murphy","email":"smurphya@360.cn","about":"enhance collaborative interfaces","picture":"http://www.avatarpro.biz/avatar/11?s=500","gameList":[12,22,18,23,29,31,3,28,7,20],"wishList":[17,28,10,35,18,2,20,32]},
+  {"id":12,"name":"Ernest","surname":"Carr","email":"ecarrb@unblog.fr","about":"e-enable interactive platforms","picture":"http://www.avatarpro.biz/avatar/12?s=500","gameList":[27,15,9,6,19,40,20,26,24,21],"wishList":[11,3,34,39,24,31,27]},
+  {"id":13,"name":"Judith","surname":"Hernandez","email":"jhernandezc@google.it","about":"whiteboard vertical architectures","picture":"http://www.avatarpro.biz/avatar/13?s=500","gameList":[6,33,38,36,39,9,15,25,17],"wishList":[2,7,27,40,17,15,39,25,28,33]},
+  {"id":14,"name":"Sarah","surname":"Wagner","email":"swagnerd@sun.com","about":"seize revolutionary partnerships","picture":"http://www.avatarpro.biz/avatar/14?s=500","gameList":[40,22,15,7,2,29,32,12,35],"wishList":[29,20,37,14,4,23,15,17,25,12]},
+  {"id":15,"name":"Kathryn","surname":"Johnston","email":"kjohnstone@hud.gov","about":"enable viral eyeballs","picture":"http://www.avatarpro.biz/avatar/15?s=500","gameList":[8,10,23,24,36,17,13,25,16],"wishList":[17,35,33,9,29,6,34,2,26]},
+  {"id":16,"name":"James","surname":"Wood","email":"jwoodf@sitemeter.com","about":"matrix B2B platforms","picture":"http://www.avatarpro.biz/avatar/16?s=500","gameList":[26,23,13,6,37,20,25,32,22,40],"wishList":[14,37,16,19,5,1,21,8,32,29]},
+  {"id":17,"name":"Kevin","surname":"Carpenter","email":"kcarpenterg@elpais.com","about":"syndicate user-centric mindshare","picture":"http://www.avatarpro.biz/avatar/17?s=500","gameList":[22,21,12,27,28,8,10,33,14,35],"wishList":[28,20,21,9,2,16,34]},
+  {"id":18,"name":"Heather","surname":"Henry","email":"hhenryh@jalbum.net","about":"reinvent killer mindshare","picture":"http://www.avatarpro.biz/avatar/18?s=500","gameList":[7,36,30,6,14,26,12,16],"wishList":[35,29,1,3,25,4,8,39,26]},
+  {"id":19,"name":"Margaret","surname":"Torres","email":"mtorresi@privacy.gov.au","about":"incubate frictionless vortals","picture":"http://www.avatarpro.biz/avatar/19?s=500","gameList":[34,30,22,35,19,4,14,26,6],"wishList":[28,2,17,24,10,31,18,4,7]},
+  {"id":20,"name":"Peter","surname":"Fuller","email":"pfullerj@freewebs.com","about":"repurpose 24/365 communities","picture":"http://www.avatarpro.biz/avatar/20?s=500","gameList":[9,4,26,20,2,35,39,11,22],"wishList":[36,28,1,20,9,16,21,32,5,10]},
+  {"id":21,"name":"Andrea","surname":"Fox","email":"afoxk@tmall.com","about":"syndicate B2C bandwidth","picture":"http://www.avatarpro.biz/avatar/21?s=500","gameList":[24,23,29,7,25,5,30,8,16],"wishList":[1,2,16,38,30,23,26,28,40]},
+  {"id":22,"name":"Pamela","surname":"Porter","email":"pporterl@reverbnation.com","about":"monetize integrated e-business","picture":"http://www.avatarpro.biz/avatar/22?s=500","gameList":[20,6,27,38,3,37,25,34,22],"wishList":[2,37,8,14,21,22,32,18,31]},
+  {"id":23,"name":"Steven","surname":"Patterson","email":"spattersonm@google.com.br","about":"disintermediate scalable action-items","picture":"http://www.avatarpro.biz/avatar/23?s=500","gameList":[8,25,27,33,18,3,17,10],"wishList":[3,36,15,23,7,18,38,34,6]},
+  {"id":24,"name":"Julia","surname":"Ray","email":"jrayn@sun.com","about":"reinvent visionary relationships","picture":"http://www.avatarpro.biz/avatar/24?s=500","gameList":[31,22,21,30,19,15,24,32,38],"wishList":[33,11,13,36,40,2,18,23]},
+  {"id":25,"name":"Sandra","surname":"Holmes","email":"sholmeso@nih.gov","about":"leverage back-end e-business","picture":"http://www.avatarpro.biz/avatar/25?s=500","gameList":[6,37,27,18,33,9,38,29,1],"wishList":[5,38,26,21,31,9,19,20,18]},
+  {"id":26,"name":"Chris","surname":"Bailey","email":"cbaileyp@google.ca","about":"leverage world-class users","picture":"http://www.avatarpro.biz/avatar/26?s=500","gameList":[15,28,23,4,26,38,3,1],"wishList":[32,10,37,7,34,20,33,35,18]},
+  {"id":27,"name":"Patricia","surname":"Harvey","email":"pharveyq@scientificamerican.com","about":"e-enable innovative e-tailers","picture":"http://www.avatarpro.biz/avatar/27?s=500","gameList":[23,17,20,18,16,34,40,5,37,14],"wishList":[31,1,36,8,28,2,33,6,29]},
+  {"id":28,"name":"Anna","surname":"Lawrence","email":"alawrencer@msu.edu","about":"exploit proactive markets","picture":"http://www.avatarpro.biz/avatar/28?s=500","gameList":[38,4,1,19,25,31,5],"wishList":[37,25,20,18,22,7,35,6,29]},
+  {"id":29,"name":"Victor","surname":"Riley","email":"vrileys@ezinearticles.com","about":"orchestrate cross-media metrics","picture":"http://www.avatarpro.biz/avatar/29?s=500","gameList":[28,25,32,29,38,11,17,18],"wishList":[7,39,20,32,35,13,2,12,8,23]},
+  {"id":30,"name":"Frank","surname":"Peterson","email":"fpetersont@ezinearticles.com","about":"brand killer markets","picture":"http://www.avatarpro.biz/avatar/30?s=500","gameList":[7,9,40,4,31,38,35,27,32,20],"wishList":[17,9,22,18,36,19,2,14,16,26]}]

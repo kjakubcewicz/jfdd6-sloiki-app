@@ -22,6 +22,7 @@ class UsersListView extends React.Component {
     return (
       <Grid>
         <h1>Lista użytkowników</h1>
+
         <Table striped>
           <thead>
           <tr>
